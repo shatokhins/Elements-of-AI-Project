@@ -9,6 +9,8 @@ This is a scanner app that uses AI to analyse an image of your fridge and forms 
 
 ## Background
 
+My project will aim to solve the problem of food waste and nutrition for people who may not have access to lots of time or money to spend on food. This is a very common problem and a growing one in the world that we live in as the cost of living is increaseing as very fast rates. My personal motivation for this is that I want to improve the world with AI and Ithink that this is a small but sure step towards this. Personally, I would use this to help me make better meals in a shorter time period as I don't always have the time. I also find that I forget about items in my fridge and I don't always know what to do with every food item.
+
 Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
 
 This is how you make a list, if you need one:
