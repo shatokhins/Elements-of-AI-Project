@@ -16,28 +16,17 @@ My project will aim to solve the problem of food waste and nutrition for people 
 The solution will work by allowing the user to use the camera function on the user's phone. The application will analyse the image and use a CNN to identify the items in the picture. This will be done by training the AI first on a large database of pictures of food items that will be taken from supermarket websites. After identifying the items, the model will search the internet for recipies that contain those ingredients and possibly rank the meals in calorie or by chosen nutrients.
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The data would be collected from supermarket websites for images which could be collected by using a webscrapper. This would then train the AI model. Other information could come from the general internet like searching for recipies.
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Objects can be hard to identify becasue of poor camera quality or obstructions in the photo. There might also be very similar looking objects so the AI model might mistake one object for anonother and provide inaccurate results. A solution could then be an option to retake if the identified object is not correct or allow the user to manualy input the product that they want to include in the list. The application might not be able to account for how much of each food there is in weight and the recipies provided might not be accurte. A solution to this problem would be to manually input the amounts, however this could be cumbersome.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
+The project will need to be broken down into smaller tasks so that a plan could be devised for building the application. Then I would need to implement the AI model after it is developed into the mobile app. Then a prototype would be created.
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+Building AI course
