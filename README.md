@@ -11,43 +11,9 @@ This is a scanner app that uses AI to analyse an image of your fridge and forms 
 
 My project will aim to solve the problem of food waste and nutrition for people who may not have access to lots of time or money to spend on food. This is a very common problem and a growing one in the world that we live in as the cost of living is increaseing as very fast rates. My personal motivation for this is that I want to improve the world with AI and Ithink that this is a small but sure step towards this. Personally, I would use this to help me make better meals in a shorter time period as I don't always have the time. I also find that I forget about items in my fridge and I don't always know what to do with every food item.
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
-
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+The solution will work by allowing the user to use the camera function on the user's phone. The application will analyse the image and use a CNN to identify the items in the picture. This will be done by training the AI first on a large database of pictures of food items that will be taken from supermarket websites. After identifying the items, the model will search the internet for recipies that contain those ingredients and possibly rank the meals in calorie or by chosen nutrients.
 
 ## Data sources and AI methods
 Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
